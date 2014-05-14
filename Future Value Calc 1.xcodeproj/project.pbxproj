@@ -21,6 +21,7 @@
 		FAD323651916CF6B00B8D285 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD323471916CF6B00B8D285 /* UIKit.framework */; };
 		FAD3236D1916CF6B00B8D285 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAD3236B1916CF6B00B8D285 /* InfoPlist.strings */; };
 		FAD3236F1916CF6B00B8D285 /* Future_Value_Calc_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD3236E1916CF6B00B8D285 /* Future_Value_Calc_1Tests.m */; };
+		FADBDC53191731FF00504B42 /* FVCCalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = FADBDC52191731FF00504B42 /* FVCCalculatorBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		FAD3236A1916CF6B00B8D285 /* Future Value Calc 1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Future Value Calc 1Tests-Info.plist"; sourceTree = "<group>"; };
 		FAD3236C1916CF6B00B8D285 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FAD3236E1916CF6B00B8D285 /* Future_Value_Calc_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Future_Value_Calc_1Tests.m; sourceTree = "<group>"; };
+		FADBDC51191731FF00504B42 /* FVCCalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVCCalculatorBrain.h; sourceTree = "<group>"; };
+		FADBDC52191731FF00504B42 /* FVCCalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVCCalculatorBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				FAD323551916CF6B00B8D285 /* Main.storyboard */,
 				FAD323581916CF6B00B8D285 /* FVCViewController.h */,
 				FAD323591916CF6B00B8D285 /* FVCViewController.m */,
+				FADBDC51191731FF00504B42 /* FVCCalculatorBrain.h */,
+				FADBDC52191731FF00504B42 /* FVCCalculatorBrain.m */,
 				FAD3235B1916CF6B00B8D285 /* Images.xcassets */,
 				FAD3234A1916CF6B00B8D285 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FADBDC53191731FF00504B42 /* FVCCalculatorBrain.m in Sources */,
 				FAD323541916CF6B00B8D285 /* FVCAppDelegate.m in Sources */,
 				FAD3235A1916CF6B00B8D285 /* FVCViewController.m in Sources */,
 				FAD323501916CF6B00B8D285 /* main.m in Sources */,
@@ -463,6 +469,7 @@
 				FAD323741916CF6B00B8D285 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAD323751916CF6B00B8D285 /* Build configuration list for PBXNativeTarget "Future Value Calc 1Tests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +478,7 @@
 				FAD323771916CF6B00B8D285 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

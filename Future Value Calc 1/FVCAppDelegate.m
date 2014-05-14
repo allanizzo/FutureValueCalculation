@@ -7,6 +7,8 @@
 //
 
 #import "FVCAppDelegate.h"
+#import "FVCCalculatorBrain.h"
+#import "FVCViewController.h"
 
 @implementation FVCAppDelegate
 
@@ -15,6 +17,7 @@
     // Override point for customization after application launch.
     return YES;
 }
+
 							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
